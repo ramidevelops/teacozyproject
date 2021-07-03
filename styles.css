@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: Helvetica, 'sans-serif';
+    background-color: #000000;
+    color: #ffffff;
+    opacity: 0.9;
+    font-size: 1.2em;
+}
+
+header {
+    width:80%;
+    margin: auto;
+    padding-top: 1vw;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo img{
+    height: 50px;
+}
+
+.menu ul li{
+    display:inline-block;
+    margin: 0 1vw;
+}
+
+main{
+    width:80%;
+    margin: 2% auto;
+    height:700px;
+    background-image: url(./resources/images/img-mission-background.jpeg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width:100%;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.mission-overlay{
+    padding: 2%;
+    text-align: center;
+    
+}
+
+section{
+    width:80%;
+    margin: 2% auto;
+}
+
+
+.teamonth {
+    text-align: center;
+}
+
+.cardcontainer{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.teacard{
+    text-align: center;
+    padding:1vw;
+    flex-shrink: 3;
+}
+
+.location{
+    height: 500px;
+    background-image: url(./resources/images/img-locations-background.jpeg);
+}
+
+.locationheader{
+    text-align: center;
+    padding-top: 0.5vw;
+    font-size: 1.5em;
+    letter-spacing: 1vw;
+}
+
+.locationcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.locationcard{
+    width: 300px;
+    height: 300px;
+    margin: 0 40px;
+    background-color: #000000;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.prefooter{
+    width: 80%;
+    height: 200px;
+    margin: 1vw auto;
+    text-align: center;
+    letter-spacing: 0.5vw;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    opacity: 0.8;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    color:rgb(90, 86, 86)
+}
